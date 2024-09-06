@@ -4,17 +4,17 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Mahnoor+Naeem!;" />
 </h1>
 
-<h3 align="center">A passionate software engineer from Pakistan</h3>
+<h3 align="center">A passionate frontend developer from Pakistan</h3>
 
 <br/>
 
 <div align="center">
  
- 🔭 I’m currently working on **a marketplace**
+ 🔭 I’m currently working on **a IF**
  
- 🌱 I’m currently learning **Docker, Supabase, AWS**
+ 🌱 I’m currently learning **React.js, Docker, AWS**
 
-💬 Ask me about **Node.js, React, Firebase... or anything [here](https://github.com/Mahnoor-Muhammad-Naeem)**
+💬 Ask me about **Node.js, JS, React.js... or anything [here](https://github.com/Mahnoor-Muhammad-Naeem)**
 
 ⚡ Fun fact **Game of Thrones Night's Watch cloaks are made from Ikea rugs**
 
