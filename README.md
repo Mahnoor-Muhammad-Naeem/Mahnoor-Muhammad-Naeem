@@ -1,7 +1,7 @@
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Mahnoor-Muhammad-Naeem.Mahnoor-Muhammad-Naeem" />
 
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Mahnoor+Naeem!;+I'm+Frontend+Developer!;" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Mahnoor+Naeem!;+I'm+Undergrad Software+Engineer!;" />
 </h1>
 
 <h3 align="center">A passionate frontend developer from Pakistan</h3>
