@@ -14,7 +14,7 @@
  
  🌱 I’m currently learning **React.js, Docker, AWS**
 
-💬 Ask me about **Node.js, JS, React.js... or anything [here](https://github.com/Mahnoor-Muhammad-Naeem)**
+💬 Ask me about **JS, React.js, Node.js... or anything [here](https://github.com/Mahnoor-Muhammad-Naeem)**
 
 ⚡ Fun fact **Game of Thrones Night's Watch cloaks are made from Ikea rugs**
 
