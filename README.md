@@ -153,3 +153,8 @@
 
 ![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mahnoor-Muhammad-Naeem&layout=compact&count_private=true&show_icons=true&hide_title=false)
 
+
+
+## Languages I've Used on GitHub
+
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mahnoor-Muhammad-Naeem&layout=compact&count_private=true&show_icons=true&hide_title=false&bg_color=000000&text_color=ffffff)
