@@ -118,43 +118,6 @@
 
 
 
-<!-- README.md -->
-<div align="center">
-  <h3>Languages I Use on GitHub</h3>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mahnoor-Muhammad-Naeem&layout=compact&theme=default" alt="GitHub Language Stats" style="width: 100%; max-width: 600px;">
-</div>
-
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mahnoor-Muhammad-Naeem&layout=compact&count_private=true" alt="GitHub Language Stats">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mahnoor-Muhammad-Naeem&layout=compact&langs_count=8" alt="GitHub Language Stats">
-
-
-
-
-<a href="https://github.com/Mahnoor-Muhammad-Naeem/github-readme-stats">
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Mahnoor-Muhammad-Naeem&line_height=10&card_width=290&layout=compact&hide_title=false&count_private=true&show_icons=true&title_color=FF00F6&hide=html,css&bg_color=000&text_color=8B8B8B&border_radius=3&border_color=561760" alt="Most Used Languages">
-</a>
-
-
-## Languages I've Used on GitHub
-
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=## Languages I've Used on GitHub
-
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=## Languages I've Used on GitHub
-
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YourGitHubUsername&layout=compact&count_private=true&show_icons=true&hide_title=false)
-&layout=compact&count_private=true&show_icons=true&hide_title=false)
-&layout=compact&count_private=true&show_icons=true&hide_title=false)
-
-
-
-
-## Languages I've Used on GitHub
-
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mahnoor-Muhammad-Naeem&layout=compact&count_private=true&show_icons=true&hide_title=false)
-
-
-
 ## Languages I've Used on GitHub
 
 ![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mahnoor-Muhammad-Naeem&layout=compact&count_private=true&show_icons=true&hide_title=false&bg_color=000000&text_color=ffffff)
