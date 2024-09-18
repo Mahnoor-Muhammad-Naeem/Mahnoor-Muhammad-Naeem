@@ -122,3 +122,10 @@
   <h3>Languages I Use on GitHub</h3>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YourGitHubUsername&layout=compact" alt="GitHub Language Stats" style="width: 100%; max-width: 600px;">
 </div>
+
+
+<!-- README.md -->
+<div align="center">
+  <h3>Languages I Use on GitHub</h3>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YourGitHubUsername&layout=compact&theme=default" alt="GitHub Language Stats" style="width: 100%; max-width: 600px;">
+</div>
