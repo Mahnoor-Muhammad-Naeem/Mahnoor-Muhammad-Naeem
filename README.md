@@ -120,12 +120,18 @@
 <!-- README.md -->
 <div align="center">
   <h3>Languages I Use on GitHub</h3>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YourGitHubUsername&layout=compact" alt="GitHub Language Stats" style="width: 100%; max-width: 600px;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mahnoor-Muhammad-Naeem&layout=compact" alt="GitHub Language Stats" style="width: 100%; max-width: 600px;">
 </div>
 
 
 <!-- README.md -->
 <div align="center">
   <h3>Languages I Use on GitHub</h3>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YourGitHubUsername&layout=compact&theme=default" alt="GitHub Language Stats" style="width: 100%; max-width: 600px;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mahnoor-Muhammad-Naeem&layout=compact&theme=default" alt="GitHub Language Stats" style="width: 100%; max-width: 600px;">
 </div>
+
+
+https://github-readme-stats.vercel.app/api/top-langs/?username=Mahnoor-Muhammad-Naeem&layout=compact
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mahnoor-Muhammad-Naeem&layout=compact&count_private=true" alt="GitHub Language Stats">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mahnoor-Muhammad-Naeem&layout=compact&langs_count=8" alt="GitHub Language Stats">
+
