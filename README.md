@@ -33,8 +33,7 @@
 <a href="https://www.instagram.com/dau__0f__muhammad__naeem?igsh=cW84N3c2OWc1eWxs" target="_blank">
      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge" />
 </a>
-
-    
+   
 </div>
 
  <hr/>
@@ -59,29 +58,12 @@
 
 </div>
 
-<br/><br/>
-
-<hr/>
-
 <br/>
 
-
-
 <br/>
-
-
 
 ![snake gif](https://github.com/Mahnoor-Muhammad-Naeem/Mahnoor-Muhammad-Naeem/blob/output/github-contribution-grid-snake.gif)
-
-
-
-
-
-
-
-#
-
-
+<hr/>
 <div style="text-align: center;" align="center">
   <h3>* GitHub Stats *</h3>
   <br>
@@ -94,6 +76,4 @@
   </a>
 </div>
 
-
 #
-
