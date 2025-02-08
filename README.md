@@ -44,9 +44,7 @@
     <img src="https://skillicons.dev/icons?i=react,bootstrap,mui,html,css,vscode,github,figma,tailwind,git,r" />
     <img src="https://skillicons.dev/icons?i=nodejs,python,javascript,typescript,express,firebase,mongodb,c,java,nextjs,mysql,flask" /><br>
 </div>
-
 <br/>
-
 <hr/>
 
 <div align="center">
@@ -55,11 +53,8 @@
   <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/Mahnoor-Muhammad-Naeem/Mahnoor-Muhammad-Naeem/output/github-contribution-grid-snake.svg" />
   
   <br/>
-
 </div>
-
 <br/>
-
 <br/>
 
 ![snake gif](https://github.com/Mahnoor-Muhammad-Naeem/Mahnoor-Muhammad-Naeem/blob/output/github-contribution-grid-snake.gif)
