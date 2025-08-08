@@ -19,8 +19,8 @@ An AI chatbot for general medical information — built with Streamlit and Pytho
 
 ## Connect with Me
 - GitHub: [@Mahnoor-Muhammad-Naeem](https://github.com/Mahnoor-Muhammad-Naeem)
-- LinkedIn: *(Add your link here)*
-- Email: *(Add your email here)*
+- LinkedIn: *https://www.linkedin.com/in/mahnoor-muhammad-naeem/*
+- Email: *(mahnoormuhammadnaeem99@gmail.com)*
 
 ---
 From [Mahnoor Muhammad Naeem](https://github.com/Mahnoor-Muhammad-Naeem)
