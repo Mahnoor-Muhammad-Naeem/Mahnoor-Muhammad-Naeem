@@ -15,7 +15,7 @@ I'm a passionate developer who loves building AI-powered applications and sharin
 
 ## Featured Project
 [Medi-Chat Pro](https://github.com/Mahnoor-Muhammad-Naeem/medi-chat-pro)  
-An AI chatbot for general medical information — built with Streamlit and Python.
+An AI chatbot for general medical information - built with Streamlit and Python.
 
 ## Connect with Me
 - GitHub: [@Mahnoor-Muhammad-Naeem](https://github.com/Mahnoor-Muhammad-Naeem)
