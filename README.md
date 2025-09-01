@@ -4,7 +4,7 @@
 I'm a passionate developer who loves building AI-powered applications and sharing open-source projects.
 
 ## Current Focus
-- Working on **Medi-Chat Pro** — an AI-based medical chatbot for educational purposes
+- Working on **Medi-Chat Pro** - an AI-based medical chatbot for educational purposes
 - Experimenting with LLMs (OpenAI, Gemini, etc.)
 - Learning & contributing to AI/ML and Python communities
 
