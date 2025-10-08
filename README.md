@@ -1,4 +1,6 @@
 # Hi, I'm Mahnoor Muhammad Naeem
+🔗 **Portfolio:** [mahnoor-portfolio.dev](https://mahnoor-portfolio.dev)
+
 
 ## About Me
 I'm a passionate developer who loves building AI-powered applications and sharing open-source projects.
