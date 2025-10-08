@@ -17,7 +17,7 @@ Check out my live portfolio here:
 <!-- # Mahnoor's Portfolio -->  
 <!-- [![Portfolio](https://img.shields.io/badge/Mahnoor's%20Portfolio-Visit%20Now-blue?style=for-the-badge)](https://mahnoor-portfolio.vercel.app) -->
 
-[![Mahnoor's Portfolio](https://img.shields.io/badge/Mahnoor's%20Portfolio-Visit-blue?style=for-the-badge)](https://mahnoor-portfolio.vercel.app)
+<!-- [![Mahnoor's Portfolio](https://img.shields.io/badge/Mahnoor's%20Portfolio-Visit-blue?style=for-the-badge)](https://mahnoor-portfolio.vercel.app) -->
 
 
 Hey I'm [Mahnoor](https://mahnoor-portfolio.vercel.app), an **AI Automation Engineer** passionate about data, machine learning, and automation.
