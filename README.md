@@ -11,11 +11,11 @@ Check out my live portfolio here:
  <!-- 🔗 **Portfolio:** [mahnoor-portfolio.dev](http://localhost:8080/) -->
 <!-- [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue)](http://localhost:8080/) -->
 
-[![Portfolio](https://img.shields.io/badge/Mahnoor's%20Portfolio-Visit%20Now-blue?style=for-the-badge)](https://mahnoor-portfolio.vercel.app)
+<!-- [![Portfolio](https://img.shields.io/badge/Mahnoor's%20Portfolio-Visit%20Now-blue?style=for-the-badge)](https://mahnoor-portfolio.vercel.app) -->
 
 
-# Mahnoor's Portfolio  
-[![Portfolio](https://img.shields.io/badge/Mahnoor's%20Portfolio-Visit%20Now-blue?style=for-the-badge)](https://mahnoor-portfolio.vercel.app)
+<!-- # Mahnoor's Portfolio -->  
+<!-- [![Portfolio](https://img.shields.io/badge/Mahnoor's%20Portfolio-Visit%20Now-blue?style=for-the-badge)](https://mahnoor-portfolio.vercel.app) -->
 
 [![Mahnoor's Portfolio](https://img.shields.io/badge/Mahnoor's%20Portfolio-Visit-blue?style=for-the-badge)](https://mahnoor-portfolio.vercel.app)
 
