@@ -13,7 +13,7 @@
 
 ## About Me
 Heyy, Who's Mahnoor??? [Mahnoor](https://mahnoor-naeem-portfolio.vercel.app), an **AI Automation Engineer** passionate about data, machine learning, and automation.
-I'm a passionate developer who loves building AI-powered applications and sharing open-source projects.
+I'm a creative developer who loves building AI-powered applications and sharing open-source projects.
 Check out my portfolio here → [**Mahnoor's Portfolio**](https://mahnoor-naeem-portfolio.vercel.app)
 
 ## Current Focus
