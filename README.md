@@ -17,15 +17,10 @@
 
 <!-- [![Mahnoor's Portfolio](https://img.shields.io/badge/Mahnoor's%20Portfolio-Visit-blue?style=for-the-badge)](https://mahnoor-portfolio.vercel.app) -->
 
-
-Hey I'm [Mahnoor](https://mahnoor-portfolio.vercel.app), an **AI Automation Engineer** passionate about data, machine learning, and automation.
-
-
-
-
-
 ## About Me
+Hey I'm [Mahnoor](https://mahnoor-portfolio.vercel.app), an **AI Automation Engineer** passionate about data, machine learning, and automation.
 I'm a passionate developer who loves building AI-powered applications and sharing open-source projects.
+
 
 ## Current Focus
 - Working on **Medi-Chat Pro** - an AI-based medical chatbot for educational purposes
