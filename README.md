@@ -2,8 +2,8 @@
 
 
 
-## 🌐 Live Portfolio
-🎨 Check out my work here → [**Mahnoor’s Portfolio**](https://mahnoor-naeem-portfolio.vercel.app)
+## Live Portfolio
+Check out my work here → [**Mahnoor’s Portfolio**](https://mahnoor-naeem-portfolio.vercel.app)
 
 
  <!-- 🔗 **Portfolio:** [mahnoor-portfolio.dev](http://localhost:8080/) -->
