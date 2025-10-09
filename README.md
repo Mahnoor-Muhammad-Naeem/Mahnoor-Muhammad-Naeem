@@ -1,11 +1,5 @@
 # Hi, I'm Mahnoor Muhammad Naeem
 
-
-
-## Live Portfolio
-Check out my work here → [**Mahnoor’s Portfolio**](https://mahnoor-naeem-portfolio.vercel.app)
-
-
  <!-- 🔗 **Portfolio:** [mahnoor-portfolio.dev](http://localhost:8080/) -->
 <!-- [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue)](http://localhost:8080/) -->
 
@@ -20,7 +14,7 @@ Check out my work here → [**Mahnoor’s Portfolio**](https://mahnoor-naeem-por
 ## About Me
 Hey I'm [Mahnoor](https://mahnoor-portfolio.vercel.app), an **AI Automation Engineer** passionate about data, machine learning, and automation.
 I'm a passionate developer who loves building AI-powered applications and sharing open-source projects.
-
+Check out my portfolio here → [**mahnoor-naeem-portfolio.vercel.app**](https://mahnoor-naeem-portfolio.vercel.app)
 
 ## Current Focus
 - Working on **Medi-Chat Pro** - an AI-based medical chatbot for educational purposes
