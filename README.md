@@ -14,7 +14,7 @@
 ## About Me
 Hey I'm [Mahnoor](https://mahnoor-naeem-portfolio.vercel.app), an **AI Automation Engineer** passionate about data, machine learning, and automation.
 I'm a passionate developer who loves building AI-powered applications and sharing open-source projects.
-Check out my portfolio here → [**mahnoor-naeem-portfolio.vercel.app**](https://mahnoor-naeem-portfolio.vercel.app)
+Check out my portfolio here → [**Mahnoor's Portfolio**](https://mahnoor-naeem-portfolio.vercel.app)
 
 ## Current Focus
 - Working on **Medi-Chat Pro** - an AI-based medical chatbot for educational purposes
