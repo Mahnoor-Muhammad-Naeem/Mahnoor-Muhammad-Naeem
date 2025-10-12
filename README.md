@@ -12,7 +12,7 @@
 <!-- [![Mahnoor's Portfolio](https://img.shields.io/badge/Mahnoor's%20Portfolio-Visit-blue?style=for-the-badge)](https://mahnoor-portfolio.vercel.app) -->
 
 ## About Me
-Heyyy, Who's Mahnoor??? [Mahnoor](https://mahnoor-naeem-portfolio.vercel.app), an **AI Automation Engineer** passionate about data, machine learning, and automation.
+Heyyy, Who's Mahnoor?? [Mahnoor](https://mahnoor-naeem-portfolio.vercel.app), an **AI Automation Engineer** passionate about data, machine learning, and automation.
 I'm a creative developer who loves building AI-powered applications and sharing open-source projects.
 Check out my portfolio here → [**Mahnoor's Portfolio**](https://mahnoor-naeem-portfolio.vercel.app)
 
