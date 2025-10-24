@@ -1,3 +1,12 @@
 https://developers.facebook.com/apps/
 
 WhatsApp business meta
+
+business.facebook.com
+
+business.facebook.com/settings
+
+https://developers.facebook.com/apps/1337906491330088/whatsapp-business/wa-dev-console/
+
+
+https://developers.facebook.com/apps/1337906491330088/settings/basic/   // FOR APP ID AND APP SECRET.
