@@ -1,0 +1,23 @@
+N8N PROJECTS
+Dive into a world of inspiration with these N8N project ideas from redditors:
+
+Fun and Creative Projects
+Interactive Art: "a generator of biography/curiosities/news about the artists and songs that are playing on my online radio, changing in real time as the songs play"
+
+Health Tracking: "Personal project idea: use n8n to track your health data automatically"
+
+Smart Home Automation: "I've been experimenting with n8n for a while, and one of the most valuable workflows I've built is a fully automated system for a sports facility."
+
+Practical and Time-Saving Projects
+Email Management: "One that processes bills and invoices from emails and whatsapp messages into a sheets file."
+
+Social Media Automation: "Here's one I've been struggling with: pull the text and image from the latest Instagram account post, resize the image from 1080/1350 to 1080/1080 cropping absolute center, convert from JPG to webp, and create a new post on a WordPress site with that image as the post featured image, the text as the text, the post title as today's date, and publish."
+
+Financial Management: "Ingest my financial statements and use preexisting historicql spending data to forecast a spending trend so I can better estimate a weekly budget"
+
+Business and Marketing Projects
+Lead Generation: "Lead to sales journey"
+
+Customer Support: "Build and customize n8n workflows for auto-replies (support, leads, emails) using smart rules or AI."
+
+Content Creation: "Just need a workflow that generate YouTube scripts long form based on transcripts provided to study the writing style also another one to automate faceless video like the trending orange cat at very little cost per video"
