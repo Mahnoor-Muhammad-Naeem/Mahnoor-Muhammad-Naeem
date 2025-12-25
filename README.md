@@ -1,4 +1,4 @@
-# Hi, I'm Mahnoor Muhammad Naeem
+# Hi, I'm Mahnoor Naeem
 
  <!-- 🔗 **Portfolio:** [mahnoor-portfolio.dev](http://localhost:8080/) -->
 <!-- [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue)](http://localhost:8080/) -->
