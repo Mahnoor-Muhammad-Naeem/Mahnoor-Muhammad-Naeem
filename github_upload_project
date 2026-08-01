@@ -1,0 +1,609 @@
+PS C:\Users\DC\Downloads\Python Course> git init
+Initialized empty Git repository in C:/Users/DC/Downloads/Python Course/.git/
+PS C:\Users\DC\Downloads\Python Course> git add .
+warning: adding embedded git repository: 100-days-of-code
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> 100-days-of-code
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached 100-days-of-code
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config set advice.addEmbeddedRepo false"
+warning: adding embedded git repository: Python_Course_By_Mahnoor
+PS C:\Users\DC\Downloads\Python Course> git commit -m "Initial commit"
+[master (root-commit) 75e9e50] Initial commit
+ 2 files changed, 2 insertions(+)
+ create mode 160000 100-days-of-code
+ create mode 160000 Python_Course_By_Mahnoor
+PS C:\Users\DC\Downloads\Python Course> git branch -M main
+PS C:\Users\DC\Downloads\Python Course> git remote add origin https://github.com/yourusername/Python-Course.git
+PS C:\Users\DC\Downloads\Python Course> git push -u origin main
+remote: Repository not found.
+fatal: repository 'https://github.com/yourusername/Python-Course.git/' not found
+PS C:\Users\DC\Downloads\Python Course> git remote add origin https://github.com/engr-mahnoor-naeem/Python-Course.git
+error: remote origin already exists.
+PS C:\Users\DC\Downloads\Python Course> git remote set-url origin https://github.com/engr-mahnoor-naeem/Python-Course.git
+PS C:\Users\DC\Downloads\Python Course> git rm -r --cached 100-days-of-code
+rm '100-days-of-code'
+PS C:\Users\DC\Downloads\Python Course> git rm -r --cached Python_Course_By_Mahnoor
+rm 'Python_Course_By_Mahnoor'
+PS C:\Users\DC\Downloads\Python Course> Remove-Item -Recurse -Force ".\100-days-of-code\.git"
+PS C:\Users\DC\Downloads\Python Course> Remove-Item -Recurse -Force ".\Python_Course_By_Mahnoor\.git"
+PS C:\Users\DC\Downloads\Python Course> git add .
+PS C:\Users\DC\Downloads\Python Course> git commit -m "Add full project folders"
+[main dd2f423] Add full project folders
+ 555 files changed, 50351 insertions(+), 2 deletions(-)
+ delete mode 160000 100-days-of-code
+ create mode 100644 100-days-of-code/.gitattributes
+ create mode 100644 100-days-of-code/01-Day1-Intro-to-Python/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/01-Day1-Intro-to-Python/.tutorial/image.png
+ create mode 100644 100-days-of-code/01-Day1-Intro-to-Python/.tutorial/video.json
+ create mode 100644 100-days-of-code/01-Day1-Intro-to-Python/main.py
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/.tutorial/image.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/.tutorial/image_2.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/.tutorial/video.json
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/1. Jarvis Virtual Assistant/1. jarvis.py
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/2. Love Calculator/2. love calculator.py
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/3. Face Recognition/1.jpg
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/3. Face Recognition/1.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/3. Face Recognition/3. face recognition.py
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/3. Face Recognition/haarcascade_frontalface_default.xml
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/4. flappy bird.py
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/audio/die.wav
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/audio/hit.wav
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/audio/point.wav
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/audio/swoosh.wav
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/audio/wing.wav
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/sprites/0.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/sprites/1.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/sprites/2.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/sprites/3.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/sprites/4.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/sprites/5.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/sprites/6.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/sprites/7.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/sprites/8.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/sprites/9.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/sprites/background.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/sprites/base.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/sprites/bird.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/sprites/gameover.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/sprites/message.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/4. Flappy Bird Game/gallery/sprites/pipe.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/5. Snake Game/Music/bgm.mp3
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/5. Snake Game/Music/bgm1.mp3
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/5. Snake Game/Music/bgm2.mp3
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/5. Snake Game/Music/wc.mp3
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/5. Snake Game/Screen/Intro1.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/5. Snake Game/Screen/bg2.jpg
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/5. Snake Game/Screen/outro.png
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/5. Snake Game/Snake.py
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/5. Snake Game/highscore.txt
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/5. Snake Game/requirements.txt
+ create mode 100644 100-days-of-code/02-Day2-Application-of-Python/main.py
+ create mode 100644 100-days-of-code/03-Day3-Modules-and-Pip/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/03-Day3-Modules-and-Pip/.tutorial/image.png
+ create mode 100644 100-days-of-code/03-Day3-Modules-and-Pip/.tutorial/image_2.png
+ create mode 100644 100-days-of-code/03-Day3-Modules-and-Pip/.tutorial/video.json
+ create mode 100644 100-days-of-code/03-Day3-Modules-and-Pip/main.py
+ create mode 100644 100-days-of-code/03-Day3-Modules-and-Pip/one.csv
+ create mode 100644 100-days-of-code/04-Day4-Our-First-Program/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/04-Day4-Our-First-Program/.tutorial/image.png
+ create mode 100644 100-days-of-code/04-Day4-Our-First-Program/.tutorial/image_2.png
+ create mode 100644 100-days-of-code/04-Day4-Our-First-Program/.tutorial/video.json
+ create mode 100644 100-days-of-code/04-Day4-Our-First-Program/main.py
+ create mode 100644 100-days-of-code/05-Day5-Comments-and-Print/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/05-Day5-Comments-and-Print/.tutorial/image.png
+ create mode 100644 100-days-of-code/05-Day5-Comments-and-Print/.tutorial/video.json
+ create mode 100644 100-days-of-code/05-Day5-Comments-and-Print/main.py
+ create mode 100644 100-days-of-code/06-Day6-Variables-and-Data-Types/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/06-Day6-Variables-and-Data-Types/.tutorial/image.png
+ create mode 100644 100-days-of-code/06-Day6-Variables-and-Data-Types/.tutorial/video.json
+ create mode 100644 100-days-of-code/06-Day6-Variables-and-Data-Types/main.py
+ create mode 100644 100-days-of-code/07-Day7-Exercise-1-Create-a-Calculator/.tutorial/01_Operators.md
+ create mode 100644 100-days-of-code/07-Day7-Exercise-1-Create-a-Calculator/.tutorial/02_Exercise.md
+ create mode 100644 100-days-of-code/07-Day7-Exercise-1-Create-a-Calculator/.tutorial/image.png
+ create mode 100644 100-days-of-code/07-Day7-Exercise-1-Create-a-Calculator/.tutorial/video.json
+ create mode 100644 100-days-of-code/07-Day7-Exercise-1-Create-a-Calculator/main.py
+ create mode 100644 100-days-of-code/08-Day8-Exercise-1-Create-a-Calculator-Solution/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/08-Day8-Exercise-1-Create-a-Calculator-Solution/.tutorial/video.json
+ create mode 100644 100-days-of-code/08-Day8-Exercise-1-Create-a-Calculator-Solution/main.py
+ create mode 100644 100-days-of-code/09-Day9-Typecasting-in-Python/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/09-Day9-Typecasting-in-Python/.tutorial/video.json
+ create mode 100644 100-days-of-code/09-Day9-Typecasting-in-Python/main.py
+ create mode 100644 100-days-of-code/10-Day10-Taking-User-Input/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/10-Day10-Taking-User-Input/.tutorial/video.json
+ create mode 100644 100-days-of-code/10-Day10-Taking-User-Input/main.py
+ create mode 100644 100-days-of-code/100-Day-100-Conclusion-Where-to-go-from-here/.tutorial/01-conclusion.md
+ create mode 100644 100-days-of-code/100-Day-100-Conclusion-Where-to-go-from-here/.tutorial/video.json
+ create mode 100644 100-days-of-code/100-Day-100-Conclusion-Where-to-go-from-here/main.py
+ create mode 100644 100-days-of-code/11-Day11-Strings/.tutorial/01-string_methods.md
+ create mode 100644 100-days-of-code/11-Day11-Strings/.tutorial/video.json
+ create mode 100644 100-days-of-code/11-Day11-Strings/main.py
+ create mode 100644 100-days-of-code/12-Day12-Strings-Slicing/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/12-Day12-Strings-Slicing/.tutorial/video.json
+ create mode 100644 100-days-of-code/12-Day12-Strings-Slicing/main.py
+ create mode 100644 100-days-of-code/13-Day13-String-Methods/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/13-Day13-String-Methods/.tutorial/video.json
+ create mode 100644 100-days-of-code/13-Day13-String-Methods/main.py
+ create mode 100644 100-days-of-code/14-Day14-If-Else-Conditionals/.tutorial/01-if_else_statements.md
+ create mode 100644 100-days-of-code/14-Day14-If-Else-Conditionals/.tutorial/02-elif_statements.md
+ create mode 100644 100-days-of-code/14-Day14-If-Else-Conditionals/.tutorial/03-nested_if_statements.md
+ create mode 100644 100-days-of-code/14-Day14-If-Else-Conditionals/.tutorial/video.json
+ create mode 100644 100-days-of-code/14-Day14-If-Else-Conditionals/01 myif.py
+ create mode 100644 100-days-of-code/14-Day14-If-Else-Conditionals/02 if-else.py
+ create mode 100644 100-days-of-code/14-Day14-If-Else-Conditionals/03 elif.py
+ create mode 100644 100-days-of-code/14-Day14-If-Else-Conditionals/04 nested.py
+ create mode 100644 100-days-of-code/15-Day15-Exercise-2-Good-Morning-Sir/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/15-Day15-Exercise-2-Good-Morning-Sir/.tutorial/video.json
+ create mode 100644 100-days-of-code/15-Day15-Exercise-2-Good-Morning-Sir/main.py
+ create mode 100644 100-days-of-code/16-Day-16-Match-Case/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/16-Day-16-Match-Case/.tutorial/video.json
+ create mode 100644 100-days-of-code/16-Day-16-Match-Case/main.py
+ create mode 100644 100-days-of-code/17-Day17-For-Loops/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/17-Day17-For-Loops/.tutorial/video.json
+ create mode 100644 100-days-of-code/17-Day17-For-Loops/main.py
+ create mode 100644 100-days-of-code/18-Day18-While-Loops/.tutorial/01 While Loops.md
+ create mode 100644 100-days-of-code/18-Day18-While-Loops/.tutorial/02 Emulate Do While Loops.md
+ create mode 100644 100-days-of-code/18-Day18-While-Loops/.tutorial/video.json
+ create mode 100644 100-days-of-code/18-Day18-While-Loops/main.py
+ create mode 100644 100-days-of-code/19-Day-19-break-and-continue/.tutorial/01 break.md
+ create mode 100644 100-days-of-code/19-Day-19-break-and-continue/.tutorial/02 continue.md
+ create mode 100644 100-days-of-code/19-Day-19-break-and-continue/.tutorial/video.json
+ create mode 100644 100-days-of-code/19-Day-19-break-and-continue/main.py
+ create mode 100644 100-days-of-code/20-Day20-Functions/.tutorial/01 Functions.md
+ create mode 100644 100-days-of-code/20-Day20-Functions/.tutorial/video.json
+ create mode 100644 100-days-of-code/20-Day20-Functions/main.py
+ create mode 100644 100-days-of-code/21-Day-21-Function-Arguments/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/21-Day-21-Function-Arguments/.tutorial/video.json
+ create mode 100644 100-days-of-code/21-Day-21-Function-Arguments/main.py
+ create mode 100644 100-days-of-code/22-Day-22-Introduction-to-Lists/.tutorial/01-lists.md
+ create mode 100644 100-days-of-code/22-Day-22-Introduction-to-Lists/.tutorial/02-lists_indexes.md
+ create mode 100644 100-days-of-code/22-Day-22-Introduction-to-Lists/.tutorial/03-lists_comprehension.md
+ create mode 100644 100-days-of-code/22-Day-22-Introduction-to-Lists/.tutorial/video.json
+ create mode 100644 100-days-of-code/22-Day-22-Introduction-to-Lists/main.py
+ create mode 100644 100-days-of-code/23-Day-23-List-Methods/.tutorial/01-lists_methods.md
+ create mode 100644 100-days-of-code/23-Day-23-List-Methods/.tutorial/video.json
+ create mode 100644 100-days-of-code/23-Day-23-List-Methods/main.py
+ create mode 100644 100-days-of-code/24-Day24-Introduction-to-Tuples/.tutorial/01-python_tuples.md
+ create mode 100644 100-days-of-code/24-Day24-Introduction-to-Tuples/.tutorial/02-tuple_indexes.md
+ create mode 100644 100-days-of-code/24-Day24-Introduction-to-Tuples/.tutorial/video.json
+ create mode 100644 100-days-of-code/24-Day24-Introduction-to-Tuples/main.py
+ create mode 100644 100-days-of-code/25-Day25-Operations-on-Tuples/.tutorial/01-manipulating_tuples.md
+ create mode 100644 100-days-of-code/25-Day25-Operations-on-Tuples/.tutorial/02-tuple_methods.md
+ create mode 100644 100-days-of-code/25-Day25-Operations-on-Tuples/.tutorial/video.json
+ create mode 100644 100-days-of-code/25-Day25-Operations-on-Tuples/main.py
+ create mode 100644 100-days-of-code/26-Day-26-Exercise-2-Solution/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/26-Day-26-Exercise-2-Solution/.tutorial/video.json
+ create mode 100644 100-days-of-code/26-Day-26-Exercise-2-Solution/main.py
+ create mode 100644 100-days-of-code/27-Day27-Exercise-3/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/27-Day27-Exercise-3/.tutorial/video.json
+ create mode 100644 100-days-of-code/27-Day27-Exercise-3/main.py
+ create mode 100644 100-days-of-code/28-Day28-f-strings/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/28-Day28-f-strings/.tutorial/video.json
+ create mode 100644 100-days-of-code/28-Day28-f-strings/main.py
+ create mode 100644 100-days-of-code/29-Day29-Docstrings/.tutorial/01 docstring.md
+ create mode 100644 100-days-of-code/29-Day29-Docstrings/.tutorial/02 pep8.md
+ create mode 100644 100-days-of-code/29-Day29-Docstrings/.tutorial/video.json
+ create mode 100644 100-days-of-code/29-Day29-Docstrings/main.py
+ create mode 100644 100-days-of-code/30-Day30-Recursion/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/30-Day30-Recursion/.tutorial/video.json
+ create mode 100644 100-days-of-code/30-Day30-Recursion/main.py
+ create mode 100644 100-days-of-code/31-Day31-Sets/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/31-Day31-Sets/.tutorial/video.json
+ create mode 100644 100-days-of-code/31-Day31-Sets/main.py
+ create mode 100644 100-days-of-code/32-Day32-Set-Methods/.tutorial/01 joining sets.md
+ create mode 100644 100-days-of-code/32-Day32-Set-Methods/.tutorial/02 set methods.md
+ create mode 100644 100-days-of-code/32-Day32-Set-Methods/.tutorial/video.json
+ create mode 100644 100-days-of-code/32-Day32-Set-Methods/main.py
+ create mode 100644 100-days-of-code/33-Day-33-Dictionary/.tutorial/01-Dictionaries.md
+ create mode 100644 100-days-of-code/33-Day-33-Dictionary/.tutorial/video.json
+ create mode 100644 100-days-of-code/33-Day-33-Dictionary/main.py
+ create mode 100644 100-days-of-code/34-Day34-Dictionary-Methods/.tutorial/01-Dictionary_methods.md
+ create mode 100644 100-days-of-code/34-Day34-Dictionary-Methods/.tutorial/video.json
+ create mode 100644 100-days-of-code/34-Day34-Dictionary-Methods/main.py
+ create mode 100644 100-days-of-code/35-Day-35-For-loop-with-else/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/35-Day-35-For-loop-with-else/.tutorial/video.json
+ create mode 100644 100-days-of-code/35-Day-35-For-loop-with-else/main.py
+ create mode 100644 100-days-of-code/36-Day36-Exception-Handling/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/36-Day36-Exception-Handling/.tutorial/video.json
+ create mode 100644 100-days-of-code/36-Day36-Exception-Handling/main.py
+ create mode 100644 100-days-of-code/37-Day37-Finally-keyword/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/37-Day37-Finally-keyword/.tutorial/video.json
+ create mode 100644 100-days-of-code/37-Day37-Finally-keyword/main.py
+ create mode 100644 100-days-of-code/38-Day38-Custom-Errors/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/38-Day38-Custom-Errors/.tutorial/video.json
+ create mode 100644 100-days-of-code/38-Day38-Custom-Errors/main.py
+ create mode 100644 100-days-of-code/39-Day39-Exercise-3-Solution (1)/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/39-Day39-Exercise-3-Solution (1)/.tutorial/video.json
+ create mode 100644 100-days-of-code/39-Day39-Exercise-3-Solution (1)/file.txt
+ create mode 100644 100-days-of-code/39-Day39-Exercise-3-Solution (1)/main.py
+ create mode 100644 100-days-of-code/39-Day39-Exercise-3-Solution/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/39-Day39-Exercise-3-Solution/.tutorial/video.json
+ create mode 100644 100-days-of-code/39-Day39-Exercise-3-Solution/file.txt
+ create mode 100644 100-days-of-code/39-Day39-Exercise-3-Solution/main.py
+ create mode 100644 100-days-of-code/40-Day40-Exercise-4/.tutorial/tutorial.md
+ create mode 100644 100-days-of-code/40-Day40-Exercise-4/.tutorial/video.json
+ create mode 100644 100-days-of-code/40-Day40-Exercise-4/main.py
+ create mode 100644 100-days-of-code/41-Day41-Short-Hand-if-else/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/41-Day41-Short-Hand-if-else/.tutorial/video.json
+ create mode 100644 100-days-of-code/41-Day41-Short-Hand-if-else/main.py
+ create mode 100644 100-days-of-code/42-Day-42-Enumerate/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/42-Day-42-Enumerate/.tutorial/video.json
+ create mode 100644 100-days-of-code/42-Day-42-Enumerate/main.py
+ create mode 100644 100-days-of-code/44-Day44-How-import-works/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/44-Day44-How-import-works/.tutorial/video.json
+ create mode 100644 100-days-of-code/44-Day44-How-import-works/__pycache__/harry.cpython-38.pyc
+ create mode 100644 100-days-of-code/44-Day44-How-import-works/harry.py
+ create mode 100644 100-days-of-code/44-Day44-How-import-works/main.py
+ create mode 100644 100-days-of-code/45-Day45-if-name-main-in-Python/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/45-Day45-if-name-main-in-Python/.tutorial/video.json
+ create mode 100644 100-days-of-code/45-Day45-if-name-main-in-Python/__pycache__/harry.cpython-38.pyc
+ create mode 100644 100-days-of-code/45-Day45-if-name-main-in-Python/harry.py
+ create mode 100644 100-days-of-code/45-Day45-if-name-main-in-Python/main.py
+ create mode 100644 100-days-of-code/46-Day-46-os-Module/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/46-Day-46-os-Module/.tutorial/video.json
+ create mode 100644 100-days-of-code/46-Day-46-os-Module/main.py
+ create mode 100644 100-days-of-code/46-Day-46-os-Module/oslist.py
+ create mode 100644 100-days-of-code/46-Day-46-os-Module/rena.py
+ create mode 100644 100-days-of-code/47-Day47-Exercise-4-Solution/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/47-Day47-Exercise-4-Solution/.tutorial/video.json
+ create mode 100644 100-days-of-code/47-Day47-Exercise-4-Solution/main.py
+ create mode 100644 100-days-of-code/48-Day48-local-vs-global-variables/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/48-Day48-local-vs-global-variables/.tutorial/video.json
+ create mode 100644 100-days-of-code/48-Day48-local-vs-global-variables/main.py
+ create mode 100644 100-days-of-code/49-Day49-File-IO/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/49-Day49-File-IO/.tutorial/video.json
+ create mode 100644 100-days-of-code/49-Day49-File-IO/main.py
+ create mode 100644 100-days-of-code/49-Day49-File-IO/myfile.txt
+ create mode 100644 100-days-of-code/49-Day49-File-IO/myfile2.txt
+ create mode 100644 100-days-of-code/50-Day50-read-readlines-and-other-methods/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/50-Day50-read-readlines-and-other-methods/.tutorial/video.json
+ create mode 100644 100-days-of-code/50-Day50-read-readlines-and-other-methods/main.py
+ create mode 100644 100-days-of-code/50-Day50-read-readlines-and-other-methods/myfile.txt
+ create mode 100644 100-days-of-code/50-Day50-read-readlines-and-other-methods/myfile2.txt
+ create mode 100644 100-days-of-code/51-Day51-seek-and-tell-functions/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/51-Day51-seek-and-tell-functions/.tutorial/video.json
+ create mode 100644 100-days-of-code/51-Day51-seek-and-tell-functions/file.txt
+ create mode 100644 100-days-of-code/51-Day51-seek-and-tell-functions/main.py
+ create mode 100644 100-days-of-code/51-Day51-seek-and-tell-functions/sample.txt
+ create mode 100644 100-days-of-code/52-Day52-Lambda-Functions/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/52-Day52-Lambda-Functions/.tutorial/video.json
+ create mode 100644 100-days-of-code/52-Day52-Lambda-Functions/main.py
+ create mode 100644 100-days-of-code/53-Day53-Map-Filter-and-Reduce/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/53-Day53-Map-Filter-and-Reduce/.tutorial/video.json
+ create mode 100644 100-days-of-code/53-Day53-Map-Filter-and-Reduce/main.py
+ create mode 100644 100-days-of-code/54-Day54-is-vs-in-Python/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/54-Day54-is-vs-in-Python/.tutorial/video.json
+ create mode 100644 100-days-of-code/54-Day54-is-vs-in-Python/main.py
+ create mode 100644 100-days-of-code/55-Day55-Exercise-5/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/55-Day55-Exercise-5/.tutorial/video.json
+ create mode 100644 100-days-of-code/55-Day55-Exercise-5/main.py
+ create mode 100644 100-days-of-code/56-Day56-Intro-to-oops/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/56-Day56-Intro-to-oops/.tutorial/video.json
+ create mode 100644 100-days-of-code/56-Day56-Intro-to-oops/main.py
+ create mode 100644 100-days-of-code/57-Day57-Classes-and-Objects/.tutorial/01-Class_objects.md
+ create mode 100644 100-days-of-code/57-Day57-Classes-and-Objects/.tutorial/02-self_parameter.md
+ create mode 100644 100-days-of-code/57-Day57-Classes-and-Objects/.tutorial/video.json
+ create mode 100644 100-days-of-code/57-Day57-Classes-and-Objects/main.py
+ create mode 100644 100-days-of-code/58-Day58-Constructors/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/58-Day58-Constructors/.tutorial/video.json
+ create mode 100644 100-days-of-code/58-Day58-Constructors/main.py
+ create mode 100644 100-days-of-code/59-Day-59-Decorators-in-Python/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/59-Day-59-Decorators-in-Python/.tutorial/video.json
+ create mode 100644 100-days-of-code/59-Day-59-Decorators-in-Python/main.py
+ create mode 100644 100-days-of-code/60-Day-60-Getters-and-Setters/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/60-Day-60-Getters-and-Setters/.tutorial/video.json
+ create mode 100644 100-days-of-code/60-Day-60-Getters-and-Setters/main.py
+ create mode 100644 100-days-of-code/61-Day-61-Inheritance-in-Python/.tutorial/01-Inheritance.md
+ create mode 100644 100-days-of-code/61-Day-61-Inheritance-in-Python/.tutorial/02-examples.md
+ create mode 100644 100-days-of-code/61-Day-61-Inheritance-in-Python/.tutorial/video.json
+ create mode 100644 100-days-of-code/61-Day-61-Inheritance-in-Python/main.py
+ create mode 100644 100-days-of-code/62-Day-62-Access-Specifiers/.tutorial/01-Access_specifiers.md
+ create mode 100644 100-days-of-code/62-Day-62-Access-Specifiers/.tutorial/02-public.md
+ create mode 100644 100-days-of-code/62-Day-62-Access-Specifiers/.tutorial/03-private.md
+ create mode 100644 100-days-of-code/62-Day-62-Access-Specifiers/.tutorial/04-protected.md
+ create mode 100644 100-days-of-code/62-Day-62-Access-Specifiers/.tutorial/video.json
+ create mode 100644 100-days-of-code/62-Day-62-Access-Specifiers/main.py
+ create mode 100644 100-days-of-code/63-Day-63-Exercise-5-Solution/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/63-Day-63-Exercise-5-Solution/.tutorial/video.json
+ create mode 100644 100-days-of-code/63-Day-63-Exercise-5-Solution/main.py
+ create mode 100644 100-days-of-code/64-Day-64-Exercise-6/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/64-Day-64-Exercise-6/.tutorial/video.json
+ create mode 100644 100-days-of-code/64-Day-64-Exercise-6/main.py
+ create mode 100644 100-days-of-code/65-Day-65-Static-Methods/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/65-Day-65-Static-Methods/.tutorial/video.json
+ create mode 100644 100-days-of-code/65-Day-65-Static-Methods/main.py
+ create mode 100644 100-days-of-code/66-Day-66-Instance-vs-Class-variables/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/66-Day-66-Instance-vs-Class-variables/.tutorial/video.json
+ create mode 100644 100-days-of-code/66-Day-66-Instance-vs-Class-variables/main.py
+ create mode 100644 100-days-of-code/67-Day-67-Exercise-6-Solution/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/67-Day-67-Exercise-6-Solution/.tutorial/video.json
+ create mode 100644 100-days-of-code/67-Day-67-Exercise-6-Solution/main.py
+ create mode 100644 100-days-of-code/68-Day-68-Exercise-7/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/68-Day-68-Exercise-7/.tutorial/video.json
+ create mode 100644 100-days-of-code/68-Day-68-Exercise-7/main.py
+ create mode 100644 100-days-of-code/69-Day-69-Class-Methods/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/69-Day-69-Class-Methods/.tutorial/video.json
+ create mode 100644 100-days-of-code/69-Day-69-Class-Methods/main.py
+ create mode 100644 100-days-of-code/70-Day-70-Class-methods-as-alternative-constructors/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/70-Day-70-Class-methods-as-alternative-constructors/.tutorial/video.json
+ create mode 100644 100-days-of-code/70-Day-70-Class-methods-as-alternative-constructors/main.py
+ create mode 100644 100-days-of-code/71-Day-71-dir-dict-and-help-methods/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/71-Day-71-dir-dict-and-help-methods/.tutorial/video.json
+ create mode 100644 100-days-of-code/71-Day-71-dir-dict-and-help-methods/main.py
+ create mode 100644 100-days-of-code/72-Day-72-super-Keyword/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/72-Day-72-super-Keyword/.tutorial/video.json
+ create mode 100644 100-days-of-code/72-Day-72-super-Keyword/main.py
+ create mode 100644 100-days-of-code/73-Day-73-MagicDunder-Methods/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/73-Day-73-MagicDunder-Methods/.tutorial/video.json
+ create mode 100644 100-days-of-code/73-Day-73-MagicDunder-Methods/__pycache__/emp.cpython-310.pyc
+ create mode 100644 100-days-of-code/73-Day-73-MagicDunder-Methods/emp.py
+ create mode 100644 100-days-of-code/73-Day-73-MagicDunder-Methods/main.py
+ create mode 100644 100-days-of-code/74-Day-74-Method-Overriding/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/74-Day-74-Method-Overriding/.tutorial/video.json
+ create mode 100644 100-days-of-code/74-Day-74-Method-Overriding/main.py
+ create mode 100644 100-days-of-code/75-Day-75-Exercise-7-Solution/.tutorial/01-exercise.md
+ create mode 100644 100-days-of-code/75-Day-75-Exercise-7-Solution/.tutorial/video.json
+ create mode 100644 100-days-of-code/75-Day-75-Exercise-7-Solution/clutteredFolder/1.png
+ create mode 100644 100-days-of-code/75-Day-75-Exercise-7-Solution/clutteredFolder/2.png
+ create mode 100644 100-days-of-code/75-Day-75-Exercise-7-Solution/clutteredFolder/Cheatsheet.pdf
+ create mode 100644 100-days-of-code/75-Day-75-Exercise-7-Solution/main.py
+ create mode 100644 100-days-of-code/76-Day-76-Exercise-8/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/76-Day-76-Exercise-8/.tutorial/video.json
+ create mode 100644 100-days-of-code/76-Day-76-Exercise-8/main.py
+ create mode 100644 100-days-of-code/77-Day-77-Operator-Overloading/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/77-Day-77-Operator-Overloading/.tutorial/video.json
+ create mode 100644 100-days-of-code/77-Day-77-Operator-Overloading/main.py
+ create mode 100644 100-days-of-code/78-Day-78-Single-Inheritance/.tutorial/01-SingleInheritance.md
+ create mode 100644 100-days-of-code/78-Day-78-Single-Inheritance/.tutorial/video.json
+ create mode 100644 100-days-of-code/78-Day-78-Single-Inheritance/main.py
+ create mode 100644 100-days-of-code/79-Day-79-Multiple-Inheritance/.tutorial/01.Multiple inheritance.md
+ create mode 100644 100-days-of-code/79-Day-79-Multiple-Inheritance/.tutorial/video.json
+ create mode 100644 100-days-of-code/79-Day-79-Multiple-Inheritance/main.py
+ create mode 100644 100-days-of-code/80-Day-80-Multilevel-Inheritance/.tutorial/01.multilevelinheri.md
+ create mode 100644 100-days-of-code/80-Day-80-Multilevel-Inheritance/.tutorial/video.json
+ create mode 100644 100-days-of-code/80-Day-80-Multilevel-Inheritance/main.py
+ create mode 100644 100-days-of-code/81-Day-81-Hybrid-and-Hierarchical-Inheritance/.tutorial/01.hybrid.md
+ create mode 100644 100-days-of-code/81-Day-81-Hybrid-and-Hierarchical-Inheritance/.tutorial/02.Hierarchical Inheritance.md
+ create mode 100644 100-days-of-code/81-Day-81-Hybrid-and-Hierarchical-Inheritance/.tutorial/video.json
+ create mode 100644 100-days-of-code/81-Day-81-Hybrid-and-Hierarchical-Inheritance/main.py
+ create mode 100644 100-days-of-code/82-Day-82-Exercise-8-Solution/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/82-Day-82-Exercise-8-Solution/.tutorial/video.json
+ create mode 100644 100-days-of-code/82-Day-82-Exercise-8-Solution/main.py
+ create mode 100644 100-days-of-code/83-Day-83-Exercise-9/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/83-Day-83-Exercise-9/.tutorial/video.json
+ create mode 100644 100-days-of-code/83-Day-83-Exercise-9/main.py
+ create mode 100644 100-days-of-code/84-Day-84-Time-Module/.tutorial/Time Tutorial.md
+ create mode 100644 100-days-of-code/84-Day-84-Time-Module/.tutorial/video.json
+ create mode 100644 100-days-of-code/84-Day-84-Time-Module/main.py
+ create mode 100644 100-days-of-code/85-Day-85-Command-Line-Utility/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/85-Day-85-Command-Line-Utility/.tutorial/video.json
+ create mode 100644 100-days-of-code/85-Day-85-Command-Line-Utility/Cell_Colony2.jpg
+ create mode 100644 100-days-of-code/85-Day-85-Command-Line-Utility/harryt.jpg
+ create mode 100644 100-days-of-code/85-Day-85-Command-Line-Utility/main.py
+ create mode 100644 100-days-of-code/86-Day-86-Walrus-Operator/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/86-Day-86-Walrus-Operator/.tutorial/video.json
+ create mode 100644 100-days-of-code/86-Day-86-Walrus-Operator/main.py
+ create mode 100644 100-days-of-code/87-Day-87-Shutil-Module/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/87-Day-87-Shutil-Module/.tutorial/video.json
+ create mode 100644 100-days-of-code/87-Day-87-Shutil-Module/main.py
+ create mode 100644 100-days-of-code/88-Day-88-Exercise-9-Solution/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/88-Day-88-Exercise-9-Solution/.tutorial/video.json
+ create mode 100644 100-days-of-code/88-Day-88-Exercise-9-Solution/main.py
+ create mode 100644 100-days-of-code/89-Day-89-Requests-Module/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/89-Day-89-Requests-Module/.tutorial/video.json
+ create mode 100644 100-days-of-code/89-Day-89-Requests-Module/main.py
+ create mode 100644 100-days-of-code/90-Day-90-Exercise-10/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/90-Day-90-Exercise-10/.tutorial/video.json
+ create mode 100644 100-days-of-code/90-Day-90-Exercise-10/main.py
+ create mode 100644 100-days-of-code/91-Day-91-Generators-in-Python/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/91-Day-91-Generators-in-Python/.tutorial/video.json
+ create mode 100644 100-days-of-code/91-Day-91-Generators-in-Python/main.py
+ create mode 100644 100-days-of-code/92-Day-92-Function-Caching/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/92-Day-92-Function-Caching/.tutorial/video.json
+ create mode 100644 100-days-of-code/92-Day-92-Function-Caching/main.py
+ create mode 100644 100-days-of-code/93-Day-93-Exercise-10-Solution/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/93-Day-93-Exercise-10-Solution/.tutorial/video.json
+ create mode 100644 100-days-of-code/93-Day-93-Exercise-10-Solution/main.py
+ create mode 100644 100-days-of-code/94-Day-94-Exercise-11/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/94-Day-94-Exercise-11/.tutorial/video.json
+ create mode 100644 100-days-of-code/94-Day-94-Exercise-11/main.py
+ create mode 100644 100-days-of-code/95-Day-95-Regular-Expressions/.tutorial/01-regularExpressions.md
+ create mode 100644 100-days-of-code/95-Day-95-Regular-Expressions/.tutorial/video.json
+ create mode 100644 100-days-of-code/95-Day-95-Regular-Expressions/main.py
+ create mode 100644 100-days-of-code/96-Day-96-AsyncIO-in-Python/.tutorial/01-AsyncIOinPython.md
+ create mode 100644 100-days-of-code/96-Day-96-AsyncIO-in-Python/.tutorial/video.json
+ create mode 100644 100-days-of-code/96-Day-96-AsyncIO-in-Python/instagram.ico
+ create mode 100644 100-days-of-code/96-Day-96-AsyncIO-in-Python/instagram2.ico
+ create mode 100644 100-days-of-code/96-Day-96-AsyncIO-in-Python/instagram2.jpg
+ create mode 100644 100-days-of-code/96-Day-96-AsyncIO-in-Python/instagram3.ico
+ create mode 100644 100-days-of-code/96-Day-96-AsyncIO-in-Python/main.py
+ create mode 100644 100-days-of-code/97-Day-97-MultiThreading-in-Python/.tutorial/01-multithreading.md
+ create mode 100644 100-days-of-code/97-Day-97-MultiThreading-in-Python/.tutorial/video.json
+ create mode 100644 100-days-of-code/97-Day-97-MultiThreading-in-Python/main.py
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/.tutorial/01-MultiProcessing.md
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/.tutorial/video.json
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file0.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file1.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file10.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file11.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file12.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file13.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file14.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file15.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file16.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file17.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file18.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file19.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file2.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file20.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file21.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file22.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file23.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file24.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file25.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file26.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file27.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file28.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file29.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file3.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file30.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file31.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file32.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file33.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file34.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file35.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file36.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file37.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file38.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file39.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file4.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file40.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file41.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file42.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file43.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file44.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file45.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file46.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file47.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file48.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file49.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file5.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file50.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file51.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file52.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file53.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file54.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file55.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file56.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file57.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file58.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file59.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file6.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file7.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file8.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/files/file9.jpg
+ create mode 100644 100-days-of-code/98-Day-98-MultiProcessing-in-Python/main.py
+ create mode 100644 100-days-of-code/99-Day-99-Exercise-11-Solution/.tutorial/Tutorial.md
+ create mode 100644 100-days-of-code/99-Day-99-Exercise-11-Solution/.tutorial/video.json
+ create mode 100644 100-days-of-code/99-Day-99-Exercise-11-Solution/main.py
+ delete mode 160000 Python_Course_By_Mahnoor
+ create mode 100644 Python_Course_By_Mahnoor/API Development with Django REST Framework
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 0/Assignment1.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 0/Chapter0_Python.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 0/firstProgram.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 1/Assignment2.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 1/Chapter1_Python .pdf
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 1/codeExecution.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 1/userInput.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 2/Chapter2_Python.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 2/dataTypes.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 2/explicit.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 2/implicit.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 2/keywords.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 2/operators.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 2/practice1.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 2/printSum.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 2/smartTemperature.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 3/Chapter3_Strings in Python.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 3/indexing.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 3/practice2.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 3/slicing.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 3/stringBasic.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 3/stringMethod.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 4/Chapter4_Conditional Statement, Lists, Tuples in Python.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 4/conditionalStatements.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 4/listBasics.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 4/listMethods.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 4/practice1.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 4/practice2.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 4/tupleBasics.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 5/Chapter5_Dictionary and Sets in Python.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 5/dictBasics.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 5/practice1.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 5/practice2.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 5/setBasics.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 6/Chapter6_Loops in Python .pdf
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 6/countDown.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 6/forLoopBasic.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 6/loopsBasic.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 6/passCode.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 6/practice1.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 6/practice3.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 6/practice4.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 6/practice5.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 6/practice7.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 6/practice8.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter 6/range.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter7/Chapter7_Functions in Python.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Chapter7/FunctionParam.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter7/functionbasic.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter7/practice1.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter7/practice2.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter7/practice3.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter7/returnBasic.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter8/Chapter8_File Handling in Python.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Chapter8/bio.txt
+ create mode 100644 Python_Course_By_Mahnoor/Chapter8/certificate.txt
+ create mode 100644 Python_Course_By_Mahnoor/Chapter8/fileBasics.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter8/fileReading.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter8/mast.txt
+ create mode 100644 Python_Course_By_Mahnoor/Chapter8/newTextFile.txt
+ create mode 100644 Python_Course_By_Mahnoor/Chapter8/notes.txt
+ create mode 100644 Python_Course_By_Mahnoor/Chapter8/practice1.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter8/practice2.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter8/practice4.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter8/practive3.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter8/report.txt
+ create mode 100644 Python_Course_By_Mahnoor/Chapter8/report8797976.txt
+ create mode 100644 Python_Course_By_Mahnoor/Chapter8/report87979768.txt
+ create mode 100644 Python_Course_By_Mahnoor/Chapter9/Chapter9_OOPs in Python.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Chapter9/class.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter9/init.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter9/practice1.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter9/practice2.py
+ create mode 100644 Python_Course_By_Mahnoor/Chapter9/practice3.py
+ create mode 100644 Python_Course_By_Mahnoor/Project1/Project 1 - Personal Finance App - Expense Tracker.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Project1/main.py
+ create mode 100644 Python_Course_By_Mahnoor/Project2/Project 2 - AI Study Buddy (Rule-Based Chat Assistant in Python).pdf
+ create mode 100644 Python_Course_By_Mahnoor/Project2/main.py
+ create mode 100644 Python_Course_By_Mahnoor/Project3/main.py
+ create mode 100644 Python_Course_By_Mahnoor/Project4/Project4-Text Editor App Python Notes.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Project4/main.py
+ create mode 100644 Python_Course_By_Mahnoor/Project5/Project5-Photo Album App in Python.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Project5/main.py
+ create mode 100644 Python_Course_By_Mahnoor/PythonHandBook.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Python_Slides/Lecture1_py.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Python_Slides/Lecture2_py.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Python_Slides/Lecture3_py.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Python_Slides/Lecture4_py.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Python_Slides/Lecture5_py.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Python_Slides/Lecture6_py.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Python_Slides/Lecture7_py.pdf
+ create mode 100644 Python_Course_By_Mahnoor/Python_Slides/Lecture8_py.pdf
+ create mode 100644 Python_Course_By_Mahnoor/README.md
+ create mode 100644 Python_Course_By_Mahnoor/ai
+ create mode 100644 Python_Course_By_Mahnoor/field
+ create mode 100644 Python_Course_By_Mahnoor/gen_ai.txt
+ create mode 100644 Python_Course_By_Mahnoor/pandas for data analysis
+PS C:\Users\DC\Downloads\Python Course> git push -u origin main
+Enumerating objects: 769, done.
+Counting objects: 100% (769/769), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (747/747), done.
+Writing objects: 100% (769/769), 56.57 MiB | 1.50 MiB/s, done.
+Total 769 (delta 20), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (20/20), done.
+To https://github.com/engr-mahnoor-naeem/Python-Course.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\DC\Downloads\Python Course> 
